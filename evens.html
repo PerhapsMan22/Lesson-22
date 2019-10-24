@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+			var SENTINEL = 0
+			var i;
+			function manyInput(){
+				while(true){
+					isEven();
+						if(i==SENTINEL){
+							document.write("Done!")
+							break;
+			}
+			}
+			}
+			function isEven(){
+			i = Number(prompt("Input number"));
+				if(i%2===0){
+					document.write("This number is even!");
+					document.write('<br>')
+					}else{
+						document.write("This number is odd!");
+						document.write('<br>')
+			}
+			}
+			manyInput()
+		</script>
+	</body>
+</html>
